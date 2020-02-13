@@ -1,16 +1,16 @@
 {
-  "name": "cra-template",
-  "version": "1.0.1",
+  "name": "cra-template-yoyota",
+  "version": "0.0.1",
   "keywords": [
     "react",
     "create-react-app",
     "template"
   ],
-  "description": "The base template for Create React App.",
+  "description": "The base template for Create React App .",
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/yoyota/cra-template.git",
     "directory": "packages/cra-template"
   },
   "license": "MIT",
@@ -18,7 +18,7 @@
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/yoyota/cra-template/issues"
   },
   "files": [
     "template",
