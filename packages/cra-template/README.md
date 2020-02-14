@@ -1,10 +1,13 @@
 # cra-template
 
-This is the official base template for [Create React App](https://github.com/facebook/create-react-app).
+This is the forked template from [Create React App](https://github.com/facebook/create-react-app).
 
-If you don't specify a template (for example, `--template typescript`), this template will be used by default.
+## pre-installed modules
 
-For more information, please refer to:
+1. [react-router](https://github.com/ReactTraining/react-router)
+2. [rematch](https://github.com/rematch/rematch)
+3. [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
 
-- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
-- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
+## Installation
+
+create-react-app --template cra-template-yoyota <project-directory>
