@@ -6,7 +6,6 @@ import "react-toastify/dist/ReactToastify.css"
 import routes from "./routes"
 
 function App() {
-  console.log(routes)
   return (
     <Router>
       <ToastContainer />
