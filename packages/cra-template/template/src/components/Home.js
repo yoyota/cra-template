@@ -5,8 +5,11 @@ export default function() {
   return (
     <>
       <p>home</p>
-      <Button variant="link" href="/count">
-        Go to count
+      <Button variant="link" href="/example/count">
+        Go to rematch example
+      </Button>
+      <Button variant="link" href="/example/api">
+        Go to api example
       </Button>
     </>
   )
