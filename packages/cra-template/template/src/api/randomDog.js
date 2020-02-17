@@ -1,8 +1,7 @@
 import axios from "axios"
 import { toast } from "react-toastify"
 
-// eslint-disable-next-line import/prefer-default-export
-export const randomDog = axios.create({ baseURL: "https://random.dog" })
+const randomDog = axios.create({ baseURL: "https://random.dog" })
 
 randomDog.interceptors.response.use(
   response => response.data,
@@ -14,5 +13,7 @@ randomDog.interceptors.response.use(
     return Promise.reject(error)
   }
 )
+
+export default randomDog
 
 // randomDog.defaults.headers.common.Authorization = AUTH_TOKEN

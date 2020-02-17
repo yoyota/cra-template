@@ -1,12 +1,12 @@
 import React from "react"
 import { Route } from "react-router-dom"
 import Home from "./components/Home"
-import Count from "./components/Count"
-import ApiExample from "./components/ApiExample"
+import Counter from "./counter"
+import ApiExample from "./apiExample"
 
 const routes = [
   { exact: true, path: "/", component: Home },
-  { exact: true, path: "/example/count", component: Count },
+  { exact: true, path: "/example/count", component: Counter },
   { exact: true, path: "/example/api", component: ApiExample }
 ]
 
