@@ -1,13 +1,13 @@
 import React from "react"
 import { fireEvent, render, waitForDomChange } from "@testing-library/react"
 import CounterContainer from "./CounterContainer"
-import ProviderWrapper from "../../test/ProviderWrapper"
+import Wrapper from "../styleguidist/Wrapper"
 
 function renderWithRedux() {
   return render(
-    <ProviderWrapper>
+    <Wrapper>
       <CounterContainer />
-    </ProviderWrapper>
+    </Wrapper>
   )
 }
 

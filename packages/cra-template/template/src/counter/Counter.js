@@ -1,7 +1,7 @@
 import React from "react"
 import { Button } from "react-bootstrap"
 
-export default function({
+function Counter({
   count = 0,
   increment = () => {},
   incrementAsync = () => {}
@@ -14,3 +14,4 @@ export default function({
     </div>
   )
 }
+export default Counter

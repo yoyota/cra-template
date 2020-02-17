@@ -2,7 +2,7 @@ import React from "react"
 import { useSelector, useDispatch } from "react-redux"
 import Counter from "./Counter"
 
-export default function() {
+function CounterContainer() {
   const { count } = useSelector(state => state)
   const { increment, incrementAsync } = useDispatch().count
 
@@ -14,3 +14,5 @@ export default function() {
     />
   )
 }
+
+export default CounterContainer

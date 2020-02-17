@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { randomDog } from "../api"
 import ApiExample from "./ApiExample"
 
-export default function() {
+function ApiExampleContainer() {
   const [src, setSrc] = useState("")
 
   async function fetchDogImageUrl(path = "woof.json") {
@@ -22,3 +22,4 @@ export default function() {
     />
   )
 }
+export default ApiExampleContainer
