@@ -1,12 +1,12 @@
 import React from "react"
 import { fireEvent, render, waitForDomChange } from "@testing-library/react"
-import CountContainer from "./CountContainer"
+import CounterContainer from "./CounterContainer"
 import ProviderWrapper from "../../test/ProviderWrapper"
 
 function renderWithRedux() {
   return render(
     <ProviderWrapper>
-      <CountContainer />
+      <CounterContainer />
     </ProviderWrapper>
   )
 }
