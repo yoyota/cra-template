@@ -5,15 +5,18 @@ import { Provider } from "react-redux"
 import App from "./App"
 import * as serviceWorker from "./serviceWorker"
 import * as models from "./models"
+import ErrorBoundary from "./ErrorBoundary"
 
 const store = init({
   models
 })
 
 const Root = () => (
-  <Provider store={store}>
-    <App />
-  </Provider>
+  <ErrorBoundary>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </ErrorBoundary>
 )
 
 ReactDOM.render(<Root />, document.getElementById("root"))
