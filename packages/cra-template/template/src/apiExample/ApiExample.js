@@ -1,7 +1,7 @@
 import React from "react"
 import { Button } from "react-bootstrap"
 
-export default function({
+function ApiExample({
   src = "",
   fetchSuccess = () => {},
   fetchFail = () => {}
@@ -20,3 +20,5 @@ export default function({
     </>
   )
 }
+
+export default ApiExample

@@ -1,7 +1,7 @@
 import React from "react"
 import { Button } from "react-bootstrap"
 
-export default function() {
+function Home() {
   return (
     <>
       <p>home</p>
@@ -14,3 +14,4 @@ export default function() {
     </>
   )
 }
+export default Home
