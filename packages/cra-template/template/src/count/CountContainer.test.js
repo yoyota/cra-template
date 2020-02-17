@@ -1,7 +1,7 @@
 import React from "react"
 import { fireEvent, render, waitForDomChange } from "@testing-library/react"
 import CountContainer from "./CountContainer"
-import ProviderWrapper from "../../../test/ProviderWrapper"
+import ProviderWrapper from "../../test/ProviderWrapper"
 
 function renderWithRedux() {
   return render(
