@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter as Router, Switch } from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import { ToastContainer } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
@@ -10,7 +10,16 @@ function App() {
     <Router>
       <ToastContainer />
       <Container>
-        <Switch>{routes}</Switch>
+        <Switch>
+          {routes.map(route => (
+            <Route
+              key={route.path}
+              exact={route.exact}
+              path={route.path}
+              render={() => <route.component />}
+            />
+          ))}
+        </Switch>
       </Container>
     </Router>
   )
