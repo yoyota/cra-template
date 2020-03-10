@@ -32,5 +32,14 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "import/no-extraneous-dependencies": "off"
-  }
+  },
+  overrides: [{
+     "files": ["**/*.md"],
+     "rules": {
+       "react/jsx-no-undef": "off",
+       "import/no-unresolved": "off",
+       "no-unused-expressions": "off",
+       "react/react-in-jsx-scope": "off"
+     }
+   }]
 }
