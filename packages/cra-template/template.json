@@ -11,6 +11,7 @@
       "eslint-plugin-jest": "^23.7.0",
       "eslint-plugin-prettier": "^3.1.2",
       "eslint-plugin-promise": "^4.2.1",
+      "eslint-plugin-markdown": "^1.0.2",
       "prettier": "^1.19.1",
       "react-bootstrap": "^1.0.0-beta.16",
       "react-redux": "^7.1.3",
