@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import { randomDog } from "../api"
 import ApiExample from "./ApiExample"
 
@@ -16,9 +16,9 @@ function ApiExampleContainer() {
 
   return (
     <ApiExample
-      src={src}
-      fetchSuccess={() => fetchDogImageUrl()}
       fetchFail={() => fetchDogImageUrl("undefined")}
+      fetchSuccess={() => fetchDogImageUrl()}
+      src={src}
     />
   )
 }

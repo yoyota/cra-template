@@ -19,16 +19,5 @@ module.exports = {
   styleguideComponents: {
     Wrapper: path.join(__dirname, "src/styleguidist/Wrapper")
   },
-  styleguideDir: "build-docs",
-  template: {
-    head: {
-      links: [
-        {
-          rel: "stylesheet",
-          href:
-            "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        }
-      ]
-    }
-  }
+  styleguideDir: "build-docs"
 }

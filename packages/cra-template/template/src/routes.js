@@ -1,6 +1,6 @@
-import Home from "./components/Home"
-import Counter from "./counter"
 import ApiExample from "./apiExample"
+import Counter from "./counter"
+import Home from "./components/Home"
 
 const routes = [
   { exact: true, path: "/", component: Home },

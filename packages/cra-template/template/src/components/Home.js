@@ -1,14 +1,18 @@
 import React from "react"
-import { Button } from "react-bootstrap"
+import { Box, Button, Typography } from "@material-ui/core"
 
 function Home() {
   return (
     <>
-      <p>home</p>
-      <Button variant="link" href="/example/count">
-        Go to rematch example
-      </Button>
-      <Button variant="link" href="/example/api">
+      <Typography gutterBottom variant="h1">
+        home
+      </Typography>
+      <Box component="span" mr={3}>
+        <Button color="primary" href="/example/count" variant="contained">
+          Go to rematch example
+        </Button>
+      </Box>
+      <Button color="secondary" href="/example/api" variant="contained">
         Go to api example
       </Button>
     </>
