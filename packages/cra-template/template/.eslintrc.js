@@ -7,6 +7,7 @@ module.exports = {
     "plugin:prettier/recommended"
   ],
   env: {
+    es6: true,
     jest: true,
     browser: true
   },
@@ -27,6 +28,7 @@ module.exports = {
         semi: false
       }
     ],
+    "react/jsx-sort-props": "warn",
     "react/prop-types": "off",
     "react/jsx-filename-extension": "off",
     "react-hooks/rules-of-hooks": "error",

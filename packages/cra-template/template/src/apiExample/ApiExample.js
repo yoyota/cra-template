@@ -1,5 +1,5 @@
 import React from "react"
-import { Button } from "react-bootstrap"
+import { Box, Button } from "@material-ui/core"
 
 function ApiExample({
   src = "",
@@ -8,14 +8,17 @@ function ApiExample({
 }) {
   return (
     <>
-      <div className="my-3">
-        <Button onClick={() => fetchSuccess()}>Replace Image</Button>{" "}
-        <Button variant="danger" onClick={() => fetchFail()}>
+      <Box my={3}>
+        <Button onClick={() => fetchSuccess()} variant="contained">
+          Replace Image
+        </Button>{" "}
+        <Box component="span" mx={1} />
+        <Button onClick={() => fetchFail()} variant="contained">
           Test api error
         </Button>
-      </div>
+      </Box>
       <div>
-        <img src={src} alt="dog" />
+        <img alt="dog" height="100%" src={src} width="100%" />
       </div>
     </>
   )

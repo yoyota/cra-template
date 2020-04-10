@@ -6,7 +6,7 @@ This is the forked template from [Create React App](https://github.com/facebook/
 
 1. [react-router](https://github.com/ReactTraining/react-router)
 2. [rematch](https://github.com/rematch/rematch)
-3. [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
+3. [material ui](https://material-ui.com/)
 
 ## Installation
 
