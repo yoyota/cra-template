@@ -1,4 +1,19 @@
+<<<<<<< HEAD
 /* eslint-disable */
+=======
+// This optional code is used to register a service worker.
+// register() is not called by default.
+
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://cra.link/PWA
+
+>>>>>>> 9123aae7 (Move shortlinks to cra.link (#8957))
 const isLocalhost = Boolean(
   window.location.hostname === "localhost" ||
     // [::1] is the IPv6 localhost address.
@@ -31,10 +46,17 @@ export function register(config) {
         // service worker/PWA documentation.
         navigator.serviceWorker.ready.then(() => {
           console.log(
+<<<<<<< HEAD
             "This web app is being served cache-first by a service " +
               "worker. To learn more, visit https://bit.ly/CRA-PWA"
           )
         })
+=======
+            'This web app is being served cache-first by a service ' +
+              'worker. To learn more, visit https://cra.link/PWA'
+          );
+        });
+>>>>>>> 9123aae7 (Move shortlinks to cra.link (#8957))
       } else {
         // Is not localhost. Just register service worker
         registerValidSW(swUrl, config)
@@ -59,9 +81,9 @@ function registerValidSW(swUrl, config) {
               // but the previous service worker will still serve the older
               // content until all client tabs are closed.
               console.log(
-                "New content is available and will be used when all " +
-                  "tabs for this page are closed. See https://bit.ly/CRA-PWA."
-              )
+                'New content is available and will be used when all ' +
+                  'tabs for this page are closed. See https://cra.link/PWA.'
+              );
 
               // Execute callback
               if (config && config.onUpdate) {
