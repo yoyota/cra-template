@@ -13,6 +13,7 @@ jobs:
           node-version: 12.x
       - run: npm install --global create-react-app
       - run: create-react-app --template file:./packages/cra-template ./test
+      - run: ls ./test/src
       - name: lint
         run: yarn eslint --ext md --ext js src
         working-directory: ./test

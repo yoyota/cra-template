@@ -3,6 +3,7 @@
     "dependencies": {
       "@material-ui/core": "^4.9.8",
       "@material-ui/icons": "^4.9.1",
+      "@rematch/core": "^1.4.0",
       "@testing-library/react": "^9.3.2",
       "@testing-library/jest-dom": "^4.2.4",
       "@testing-library/user-event": "^7.1.2",
@@ -15,6 +16,8 @@
       "eslint-plugin-markdown": "^1.0.2",
       "prettier": "^1.19.1",
       "react-styleguidist": "^10.6.0",
+      "react-redux": "^7.2.0",
+      "react-router-dom": "^5.2.0",
       "react-toastify": "^5.5.0",
       "typeface-roboto": "0.0.75"
     }

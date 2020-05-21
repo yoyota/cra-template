@@ -4,6 +4,6 @@ import App from "./App"
 
 test("renders home", () => {
   const { getByText } = render(<App />)
-  const homeElement = getByText(/replace/i)
+  const homeElement = getByText(/home/i)
   expect(homeElement).toBeInTheDocument()
 })
