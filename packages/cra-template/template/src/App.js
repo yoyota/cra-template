@@ -3,7 +3,7 @@ import "react-toastify/dist/ReactToastify.css"
 import { Container, CssBaseline } from "@material-ui/core"
 import { ToastContainer } from "react-toastify"
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles"
-import ApiExamples from "./ApiExamples"
+import ApiExample from "./ApiExample"
 import theme from "./theme"
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <CssBaseline />
       <ToastContainer />
       <Container maxWidth="xl">
-        <ApiExamples />
+        <ApiExample />
       </Container>
     </MuiThemeProvider>
   )
