@@ -16,18 +16,9 @@ module.exports = {
     "no-alert": "error",
     "no-console": "error",
     "no-param-reassign": ["error", { props: false }],
-    "no-unused-vars": [
-      "error",
-      {
-        varsIgnorePattern: "_"
-      }
-    ],
-    "prettier/prettier": [
-      "error",
-      {
-        semi: false
-      }
-    ],
+    "no-use-before-define": "off",
+    "no-unused-vars": ["error", { varsIgnorePattern: "_" }],
+    "prettier/prettier": ["error", { semi: false }],
     "react/jsx-sort-props": "warn",
     "react/prop-types": "off",
     "react/jsx-filename-extension": "off",
