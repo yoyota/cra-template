@@ -1,7 +1,7 @@
 import React from "react"
 import { init } from "@rematch/core"
 import { Provider } from "react-redux"
-
+import { MemoryRouter } from "react-router-dom"
 import { CssBaseline } from "@material-ui/core"
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles"
 
@@ -16,7 +16,7 @@ export default function({ children }) {
     <Provider store={store}>
       <MuiThemeProvider theme={createMuiTheme(theme)}>
         <CssBaseline />
-        {children}
+        <MemoryRouter>{children}</MemoryRouter>
       </MuiThemeProvider>
     </Provider>
   )
