@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 /* eslint-disable */
-=======
 // This optional code is used to register a service worker.
 // register() is not called by default.
 
@@ -13,7 +11,6 @@
 // To learn more about the benefits of this model and instructions on how to
 // opt-in, read https://cra.link/PWA
 
->>>>>>> 9123aae7 (Move shortlinks to cra.link (#8957))
 const isLocalhost = Boolean(
   window.location.hostname === "localhost" ||
     // [::1] is the IPv6 localhost address.
@@ -46,17 +43,10 @@ export function register(config) {
         // service worker/PWA documentation.
         navigator.serviceWorker.ready.then(() => {
           console.log(
-<<<<<<< HEAD
-            "This web app is being served cache-first by a service " +
-              "worker. To learn more, visit https://bit.ly/CRA-PWA"
-          )
-        })
-=======
             'This web app is being served cache-first by a service ' +
               'worker. To learn more, visit https://cra.link/PWA'
           );
         });
->>>>>>> 9123aae7 (Move shortlinks to cra.link (#8957))
       } else {
         // Is not localhost. Just register service worker
         registerValidSW(swUrl, config)
