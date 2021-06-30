@@ -13,7 +13,6 @@
       "eslint-plugin-promise": "^5.1.0",
       "eslint-plugin-markdown": "^2.2.0",
       "prettier": "^2.3.2",
-      "react-styleguidist": "^11.1.7",
       "react-toastify": "^7.0.4",
       "typeface-roboto": "0.0.75",
       "web-vitals": "^1.0.1"
