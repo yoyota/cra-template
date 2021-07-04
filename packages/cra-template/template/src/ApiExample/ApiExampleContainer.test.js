@@ -1,4 +1,3 @@
-import React from "react"
 import { fireEvent, render, waitForDomChange } from "@testing-library/react"
 import randomDog from "../api/randomDog"
 
